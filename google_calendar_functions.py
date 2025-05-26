@@ -4,7 +4,7 @@ from google_api import create_service
 
 
 
-CLIENT_SECRET_FILE = r'credentials.json'
+CLIENT_SECRET_FILE = r'credentials.json' # este arquivo é criado no projeto do GCP
 API_NAME = 'calendar'
 API_VERSION = 'v3'
 SCOPES = ['https://www.googleapis.com/auth/calendar']
